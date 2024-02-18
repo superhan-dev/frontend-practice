@@ -4,7 +4,7 @@ import Logo from "./Logo";
 
 const Navbar = () => {
   return (
-    <div className="flex w-screen max-w-screen-2xl  text-lg">
+    <div className="flex w-screen max-w-screen-2xl text-md font-medium">
       <Logo />
       <ul className="flex justify-around items-center w-screen max-w-[600px]">
         <li>
@@ -29,11 +29,11 @@ const Navbar = () => {
           <Link href="Help">Help</Link>
         </li>
       </ul>
-      <ul className="flex items-center px-10 w-screen justify-end  space-x-5 ">
-        <li>
+      <ul className="flex items-center px-10 w-screen justify-end space-x-5 gap-2 ">
+        <li className="text-[#0000ff] font-medium text-md">
           <Link href="/">Try Live For Free</Link>
         </li>
-        <li>
+        <li className="text-sm">
           <Link href="/">Log in or registere</Link>
         </li>
       </ul>

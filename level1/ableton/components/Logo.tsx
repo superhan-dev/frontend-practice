@@ -2,7 +2,7 @@ import React from "react";
 
 const Logo = () => {
   return (
-    <div className="m-3 flex justify-center items-center">
+    <div className="m-2 ml-4 flex justify-center items-center">
       <svg
         aria-hidden="true"
         focusable="false"

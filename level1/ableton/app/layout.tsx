@@ -16,8 +16,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="w-full bg-[#f0f0f0] text-[16px]">
-        <div className="flex flex-col justify-center items-center">
+      <body className="w-full bg-[#f0f0f0] text-[16px] flex justify-center items-center">
+        <div className="flex max-w-[1585px] pt-2 bg-white flex-col justify-center items-center">
           <Navbar />
           {children}
           <Footer />
